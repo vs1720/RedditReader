@@ -6,7 +6,7 @@ A bot that scrapes posts off Reddit. It keeps track of posts for x hours, checki
 We use the PRAW reddit API to scrape our data. See [here](https://praw.readthedocs.io/en/latest/getting_started/quick_start.html) to see how you can set up your own ID and secret to scrape data. In a given subreddit, every X minutes (default 20) the scraper performs a "Check." The scraper maintains a bench, an array that contains currently tracked posts. At each Check, the scraper:
 * Add to the bench any new post that was not already in the bench. 
   * In essence, add to the bench any new posts made since the last check
-* Update each post already on the bench. Each update add:
+* Update each post already on the bench. At each update add:
   * Current upvotes, ratio, comments, etc
   * Hot Information - since the success of each post relies heavily on how old the current top posts are, we keep track of how the top posts are doing
  * Remove "matured" posts from bench
