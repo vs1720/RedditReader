@@ -8,7 +8,7 @@ We use the PRAW reddit API to scrape our data. See [here](https://praw.readthedo
   * In essence, add to the bench any new posts made since the last check
 * Update each post already on the bench. At each update add:
   * Current upvotes, ratio, comments, etc
-  * Hot Information - since the success of each post relies heavily on how old the current top posts are, we keep track of how the top posts are doing - looking at upvote ratio, age, comments, and the growth of each. 
+  * Hot Information - since the success of each post relies heavily on how old the current top posts are, we keep track of how the top posts are doing by looking at upvote ratio, age, comments, and the growth of each. 
  * Remove "matured" posts from bench
   * We only keep track of a post for 20 hours as after this upvote count mostly stagnates. Once removed from bench, it is added to MLfile
 
