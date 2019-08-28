@@ -19,7 +19,7 @@ There is a sample file called "miniMLfile." Rename this to MLfile for the code t
 # The Analysis
 
 * ## TensorFlow Model ##
-  * Using tensorflow, straightforward nueral network to predict score of post based on 2 hours of data. (3 periods per hour if using 20 minute intervals)
+  * Using tensorflow, straightforward neural network to predict score of post based on 2 hours of data. (3 periods per hour if using 20 minute intervals)
   * Not very good results. 
   * Tried:
     * dropout - very good results
