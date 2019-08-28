@@ -1,5 +1,5 @@
 # RedditReader
-A bot that Scrapes posts off Reddit. It keeps track of posts for x hours, checking popularity every y minutes. Then, various predictive models are used to estimate the ultimate popularity of each post using as little time data as possible.
+A bot that scrapes posts off Reddit. It keeps track of posts for x hours, checking popularity every y minutes. Then, various predictive models are used to estimate the ultimate popularity of each post using as little time data as possible.
 
 # The Scraper
 
