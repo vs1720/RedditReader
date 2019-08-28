@@ -19,20 +19,20 @@ There is a sample file called "miniMLfile." Rename this to MLfile for the code t
 # The Analysis
 
 * ## TensorFlow Model ##
-  * Using tensorflow, straighforward nueral network to predict score of post based on 2 hours of data. (3 periods per hour if using 20 minute intervals)
+  * Using tensorflow, straightforward nueral network to predict score of post based on 2 hours of data. (3 periods per hour if using 20 minute intervals)
   * Not very good results. 
   * Tried:
     * dropout - very good results
     * Recurrent Neural Network - similar results
-    * Various hypertuning of layers and numbers of neurons per layer
+    * Hypertuning of layers and numbers of neurons per layer
     * Appending rows to one another, so as to take as input the neighbors of each post as well - complete failure, this leads to awful results
   * To try:
     * Further tuning
-    * tuning with RNN
+    * Tuning with Recurrent Neural Networks. 
     * Using classifier instead of regressor
 * ## SKlearn Models ##
 
   * Various regressors and classifiers using off shelf sklearn machines
   * Solid results using Gradient Boosting - our current goto
   * RegTestPipeline:
-    * Any regression model can be tested using this file. Gives you psuedo 4-fold Cross Validation, with custom reports showing perfomance. Correct - correctly identified. Incorrect - Posts that were incorrectly identified. Missed - posts that weren't identified, but should've been. Also included are actual and predicted results for comparison's sake.  
+    * Any regression model can be tested using this file. Gives you psuedo K-fold Cross Validation, with custom reports showing perfomance. Correct - correctly identified. Incorrect - Posts that were incorrectly identified. Missed - posts that weren't identified, but should've been. Also included are actual and predicted results for comparison's sake.  
