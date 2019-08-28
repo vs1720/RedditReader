@@ -14,7 +14,7 @@ We use the PRAW reddit API to scrape our data. See [here](https://praw.readthedo
 
 # The Data
 
-There is a sample file called "miniMLfile." Rename this to MLfile for the code to work. This only has 800 posts, with 20 hours of data each. The columns start with the period they belong to: 1,2,3... and then follow self charecteristics, then the charcteristics of the top 5. The second top will be, say, 4age2 - this means in the 4th period, the age of the second top post, and so on. Note that it is in csv format. Consider moving to a database of some sort when approaching 10000+ posts. 
+There is a sample file called "miniMLfile." Rename this to MLfile for the code to work. This only has 800 posts, with 20 hours of data each. The columns start with the period they belong to: 1,2,3... and then follow self characteristics, then the characteristics of the top 5. The second top will be, say, 4age2 - this means in the 4th period, the age of the second top post, and so on. Note that it is in csv format. Consider moving to a database of some sort when approaching 10000+ posts. 
 
 # The Analysis
 
