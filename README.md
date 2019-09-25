@@ -30,6 +30,7 @@ There is a sample file called "miniMLfile." Rename this to MLfile for the code t
     * Further tuning
     * Tuning with Recurrent Neural Networks. 
     * Using classifier instead of regressor
+    * Using word2vec or other models to codify the titles
 * ## SKlearn Models ##
 
   * Various regressors and classifiers using off shelf sklearn machines
